@@ -1,0 +1,96 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+.cold .first-window {
+  background-image: url(/images/tempt-cold.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.warm .first-window {
+  background-image: url(/images/tempt-warm.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.hot .first-window {
+  background-image: url(/images/tempt-hot.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+/*wind-third-window */
+.calm .third-window {
+  background-image: url(/images/wind-calm1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.breezy .third-window {
+  /* background-color: #fbf1a9; */
+  background-image: url(/images/wind-breezy1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.windy .third-window {
+  background-image: url(/images/wind-windy1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*weather-second-window */
+.rain .second-window {
+  background-image: url(/images/weather-rain2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.thunderstorm .second-window {
+  background-image: url(/images/weather-rain2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+.drizzle .second-window {
+  background-image: url(/images/weather-rain2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.snow .second-window {
+  background-image: url(/images/weather-snow2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clear .second-window {
+  background-image: url(/images/weather-clear2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.clouds .second-window {
+  background-image: url(/images/weather-cloudy.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mist .second-window {
+  background-image: url(/images/weather-cloudy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.haze .second-window {
+  background-image: url(/images/weather-haze.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}

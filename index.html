@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>Weather</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+
+
+    <!-- If there is an error, this box is shown. 'dn' is the only required class -->
+    <div id="error" class="dn code white pa4 fixed bottom-0 w-100 tc">
+      ERROR404
+    </div>
+
+    <!-- Search Box -->
+    <div class="test fl w-100 ma0 pa4">
+    <form id="location-search" class="f6 tc">
+          <span class="code">
+            place:
+          </span>
+          <input type="text" id="area" value="Boston" class="tc f6 code">
+        </h1>
+    </form>
+    </div>
+
+    <!-- cool graphics 2 -->
+
+
+
+    <div class="first-window flex-ns">
+      <div class="w-100 w-thirds-ns"></div>
+      <div class="aspect-ratio aspect-ratio--3x4"></div>
+      <!-- temperature condition -->
+          <p><span id=""></span></p>
+        </div>
+
+
+      <div class="second-window flex-ns">
+        <div class="w-100 w-thirds-ns"></div>
+        <div class="aspect-ratio aspect-ratio--3x4"></div>
+          <!-- weather condition -->
+          <h2><span id=""></span></h2>
+      </div>
+
+    <div class="third-window flex-ns">
+      <div class="w-100 w-thirds-ns"></div>
+      <div class="aspect-ratio aspect-ratio--3x4"></div>
+      <!-- location condition -->
+        <!-- <div class="location"> -->
+          <h2><span id=""></span></h2>
+        </div>
+
+
+
+  <!-- Site JavaScript -->
+  <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+  <script src="/javascript/main.js" charset="utf-8"></script>
+  <script src="/javascript/weather.js" charset="utf-8"></script>
+</body>
+
+</html>
